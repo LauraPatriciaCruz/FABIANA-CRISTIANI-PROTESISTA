@@ -114,34 +114,55 @@ body {
 .about-img{
 	margin-top: 70px;
 }
+.services-img{
+	height:200px;
+}
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-.team .card {
+.promo .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-.container-services{
+/* .container-services{
 	width:100%;
 	max-width: 1000px;
 	min-width: 320px;
 	margin: auto;
-}
-.img-services{
+} */
+/* .img-services{
 	width: 100%;
+} */
+
+.button {
+	background-color: white;
+	text-decoration: none;
+	height:40px;
+	width: 130px;
+	border-radius: 10px;
+	color: #000;
+	box-shadow: 0.1em 0.1em 0.3em black; 
+	transition: transform 0.5s ease-in-out;
 }
+.button:hover{
+	background-color:#A82C48;
+	color: white;
+	transform:scale(1.1); 	
+};
+	
+
 h2{
 	padding-bottom: 10px;
-
 }
-.services .card-body i {
-	font-size: 50px;
+
+.services .card-body{
+	background-color: #e1ddde;
 }
 .services .card-body p {
-    font-size: 16px;
-    
+    font-size: 16px; 
+	color: #000;   
 }
-.team .card-body i {
-	font-size: 20px;
+.card-title{
+	color:#000;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
