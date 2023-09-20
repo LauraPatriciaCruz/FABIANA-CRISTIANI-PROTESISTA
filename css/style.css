@@ -96,7 +96,9 @@ body {
 	color:black;
 	font-size: 15px;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+	margin: 0px 10px;
 	
 }
 .navbar-nav a:hover {
@@ -123,15 +125,22 @@ body {
 .promo .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-/* .container-services{
-	width:100%;
-	max-width: 1000px;
-	min-width: 320px;
-	margin: auto;
-} */
-/* .img-services{
-	width: 100%;
-} */
+
+.promo .card span{
+	display:block;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color:#A82C48;
+	padding-bottom:1rem;
+	border-bottom:0.0625rem solid #8b8383;
+	display:flex;
+	justify-content:center;             
+	align-items:center;
+}
+.promo .card span del{
+	color:#8b8383;
+	margin-left:0.5rem;
+}
 
 .button {
 	background-color: white;
